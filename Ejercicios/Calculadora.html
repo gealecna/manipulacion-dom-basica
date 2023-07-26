@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            background-color: papayawhip;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora</h1><br>
+    <input type="radio" id="suma" name="operacion" checked> <label for="suma">Suma</label><br>
+    <input type="radio" id="resta" name="operacion"> <label for="resta">Resta</label><br>
+    <input type="radio" id="multi" name="operacion"> <label for="multi">Multiplicación</label><br>
+    <input type="radio" id="divi" name="operacion"> <label for="divi">División</label><br>
+    <input id="valor1" placeholder="Ingresa el primer numero"><br>
+    <input id="valor2" placeholder="Ingresa el segundo numero"><br>
+    <button id="btnCalcular" onclick="Calculando();">Calcular</button>
+    <p id="resultado"></p>
+    <script src="./Calculadora.js">
+
+    </script>
+</body>
+</html>
